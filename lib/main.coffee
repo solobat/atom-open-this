@@ -79,6 +79,12 @@ module.exports =
     return unless fileName
 
     [fileName, line, column] = fileName.split(":")
+
+    if fileName[0] == '/'
+        fileName = fileName.substr(1)
+    else if fileName.indexOf(':') != -1
+        fileName = fileName.split(':')[1]
+
     return unless filePath = @getFilePath(editor, fileName)
     pane = atom.workspace.getActivePane()
     switch split
