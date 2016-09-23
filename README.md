@@ -1,4 +1,4 @@
-# open-this [![Build Status](https://travis-ci.org/t9md/atom-open-this.svg)](https://travis-ci.org/t9md/atom-open-this)
+# atom-open-this
 
 Open file under cursor.  
 Like `gf` on Vim, `C-x C-f` on Emacs.

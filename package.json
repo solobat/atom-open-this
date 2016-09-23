@@ -1,5 +1,5 @@
 {
-  "name": "open-this",
+  "name": "atom-open-this",
   "main": "./lib/main",
   "version": "0.2.0",
   "description": "Open file under cursor like `gf`(Vim), `C-x C-f`(Emacs)",
@@ -11,7 +11,7 @@
       "open-this:split-right"
     ]
   },
-  "repository": "https://github.com/t9md/atom-open-this",
+  "repository": "https://github.com/solobat/atom-open-this",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
